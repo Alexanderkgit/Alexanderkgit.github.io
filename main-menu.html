@@ -3,19 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="stylefmm.css">
 </head>
 <body>
 	<header>
 		<div class="row center">
-		    <div class="float"><img class="logo" src="img/logo.png" alt="logo"></div>
-		    <div class="float main-menu"><a class="amenu" href="">Home</a></div>
-		    <div class="float main-menu"><a class="amenu" href="">Products <span class="transform"> &rsaquo;</span></a></div>
-		    <div class="float main-menu"><a class="amenu" href="">Payment</a></div>
-		    <div class="float main-menu border"><a class="amenu" href="">Sipping</a></div>
-		    <div class="float search"><form><input class="search2" type="search" name="q" value="search"> <input class="submit" type="submit" value=""></form></div>
-<!-- 			<div class="float basket"><div class="four">4</div></div> -->
-			<div class="float"><a class="basket" href=""><span class="four">4</span></a></div>
+		    <div class="col-3 logo">
+		    		<a href="">
+		    			<img src="img/logo.png" alt="logo">
+		            </a>
+		    </div>
+		    <div class="col-6">
+		    	<div>
+		    		<ul class="row main-menu">
+		    			<li><a href="">Home</a></li>
+		    			<li><a href="">Products<!-- <span class="transform"> &rsaquo;</span> --></a>
+		    				<ul class="sub-menu">
+		    					<li><a href="">Lorem ipsum dolor</a></li>
+		    					<li><a href="">Sit amet</a></li>
+		    					<li><a href="">Consectetur adipisicing</a></li>
+		    					<li><a href="">Tempor incididunt</a></li>
+		    					<li><a href="">Dolore magna aliqua</a></li>
+		    					<li><a href="">Ut enim ad minim veniam</a></li>
+		    					<li><a href="">Quis nostrud</a></li>
+		    				</ul>
+		    			</li>
+		    			<li><a href="">Payment</a></li>
+		    			<li><a href="">Shipping</a></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <div class="col-3">
+		    	<div class="search">
+		    		<form >
+		    				<input class="search2" type="search" name="q" value="search">
+		    			    <input class="submit" type="submit" value="">
+		    		</form>
+		    	</div>
+		    	<div class="basket2">
+		    		<a class="basket" href=""><span class="four">4</span></a>
+		    	</div>
+		    </div>
 		</div>
 	</header>
 	
